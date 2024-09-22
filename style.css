@@ -1,0 +1,81 @@
+/* Define o estilo para os títulos */
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 1px #0e5759 ;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+header {
+ 
+    color:rgb(10, 10, 10);
+    padding: 40px;
+    font-size: 22px; 
+  }
+ul {
+  list-style: none;
+  display: flex;
+  margin: 50;
+  padding: 50;
+
+}
+li {
+  text-decoration: none;
+  margin-right: 30px;
+
+}
+a {
+  text-decoration: none;
+  color: hsl(180, 5%, 4%);
+}
+.image {
+  text-align: center;
+  margin: 10px;
+  
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+ 
+  
+
+}
+img {
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  width: auto;
+}
+main {
+ 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #13a0a081;
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+
+}
+.conteudo {
+  text-align: center;
+  color: rgb(10, 12, 12);
+}
+body {
+  background-image: linear-gradient(to right, #f2f5f7ac, rgb(154, 173, 173));
+  background-position: center;
+}
+
+
+
