@@ -19,7 +19,7 @@ h2 {
 }
 header {
  
-    color:rgb(10, 10, 10);
+    color:rgb(27, 26, 26);
     padding: 40px;
     font-size: 22px; 
   }
@@ -37,7 +37,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: hsl(180, 5%, 4%);
+  color: hsl(180, 23%, 95%);
 }
 .image {
   text-align: center;
@@ -70,10 +70,10 @@ main {
 }
 .conteudo {
   text-align: center;
-  color: rgb(10, 12, 12);
+  color: rgb(243, 247, 247);
 }
 body {
-  background-image: linear-gradient(to right, #f2f5f7ac, rgb(154, 173, 173));
+  background-image: linear-gradient(to right, #050505fb, rgb(62, 63, 63));
   background-position: center;
 }
 
