@@ -1,15 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 /* Define o estilo para os títulos */
 h1, h2 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-shadow: 2px 2px 1px #0e5759 ;
+  text-align: center;
 }
 
 h1 {
   font-size: 36px;
   margin-bottom: 5px;
   padding: 10px;
+  color: aliceblue;
+  
 }
 
 h2 {
@@ -27,72 +37,83 @@ header {
 ul {
 list-style: none;
 display: flex;
-margin: 50;
-padding: 50;
+flex-direction:column;
+justify-content: flex-end;
+margin: 0px;
+padding: 0px;
+position: absolute;
 
 }
+
 li {
-text-decoration: none;
-margin-right: 30px;
-
-}
-
-a {
   text-decoration: none;
-  color: hsl(180, 23%, 95%);
+
+  margin-right: 30px;
+
 }
-.image {
+.image2 {
   text-align: center;
   margin: 10px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px #13a0a081;
+
+
+}
+
+
+.image1 {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
   
+}
+  
+
+#projetos p {
+  text-align: center;
 }
 p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px;
-  color: aliceblue;
- 
+  padding: 20px;
+  color: rgb(144, 148, 150);
+  text-align: justify;
+  line-height: 40px;
   
 
 }
-img {
-  padding: 10px;
-}
+
 footer {
   text-align: center;
-  width: auto;
+  padding: 10px;
+  
+}
+footer p {
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+
+}
+
+section#redes-sociais {
+  text-align: right;
 }
 main {
- 
     border-radius: 10px;
     box-shadow: 5px 5px 15px #13a0a081;
     width: 600px;
     padding: 50px;
     margin: auto;
     
+    
 
 }
-.conteudo {
-  text-align: center;
-  color: rgb(243, 247, 247);
-}
+
 body {
   background-image: linear-gradient(to right, #050505fb, rgb(62, 63, 63));
   background-position: center;
-}
-.redes-sociais > a {
-  display: block;
-  background-color: darkred;
-  padding-top: 50px;
-  padding: 25px;
-  text-align: center;
-  font-weight: bolder;
-  text-decoration: none;
-  color: white;
-  
-}
-section#redes-sociais{
-  text-align: right;
 }
 
 section#redes-sociais  img {
