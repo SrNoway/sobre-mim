@@ -1,3 +1,4 @@
+
 * {
   margin: 0px;
   padding: 0px;
@@ -67,6 +68,9 @@ li {
   padding: 20px;
   
 }
+
+
+
   
 
 #projetos p {
@@ -98,14 +102,17 @@ footer p {
 }
 
 section#redes-sociais {
-  text-align: right;
+  position: fixed; /* Mantém as redes sociais fixas na tela */     
+  top: 10%;        /* Alinha verticalmente no meio da tela */
 }
+
 main {
     border-radius: 10px;
     box-shadow: 5px 5px 15px #13a0a081;
     width: 600px;
     padding: 50px;
     margin: auto;
+    
     
     
 
